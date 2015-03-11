@@ -1,0 +1,123 @@
+<?xml version="1.0"  encoding="UTF-8" ?>
+<xml>
+
+        <transponder>
+		<location>europe</location>
+		<description>horizontal high</description>
+		<frequency>12188</frequency>
+		<symbolrate>27500</symbolrate>
+		<polarization>0</polarization>
+		<fec>0</fec>
+		<inversion>2</inversion>
+		<satpos>192</satpos>
+		<system>0</system>
+		<modulation>1</modulation>
+		<rolloff>0</rolloff>
+		<pilot>1</pilot>
+        </transponder>
+
+        <transponder>
+		<location>europe</location>
+		<description>vertical high</description>
+		<frequency>12324</frequency>
+		<symbolrate>27500</symbolrate>
+		<polarization>1</polarization>
+		<fec>0</fec>
+		<inversion>2</inversion>
+		<satpos>192</satpos>
+		<system>0</system>
+		<modulation>1</modulation>
+		<rolloff>0</rolloff>
+		<pilot>1</pilot>
+        </transponder>
+
+        <transponder>
+		<location>europe</location>
+		<description>horizontal low</description>
+		<frequency>10744</frequency>
+		<symbolrate>22000</symbolrate>
+		<polarization>0</polarization>
+		<fec>0</fec>
+		<inversion>2</inversion>
+		<satpos>192</satpos>
+		<system>0</system>
+		<modulation>1</modulation>
+		<rolloff>0</rolloff>
+		<pilot>2</pilot>
+        </transponder>
+
+        <transponder>
+		<location>europe</location>
+		<description>vertical low</description>
+		<frequency>10788</frequency>
+		<symbolrate>22000</symbolrate>
+		<polarization>1</polarization>
+		<fec>0</fec>
+		<inversion>2</inversion>
+		<satpos>192</satpos>
+		<system>0</system>
+		<modulation>1</modulation>
+		<rolloff>0</rolloff>
+		<pilot>2</pilot>
+        </transponder>
+
+        <transponder>
+		<location>korea</location>
+		<description>DW Asien</description>
+		<frequency>3760</frequency>
+		<symbolrate>26000</symbolrate>
+		<polarization>0</polarization>
+		<fec>0</fec>
+		<inversion>2</inversion>
+		<satpos>1056</satpos>
+		<system>0</system>
+		<modulation>1</modulation>
+		<rolloff>0</rolloff>
+		<pilot>2</pilot>
+        </transponder>
+
+        <transponder>
+		<location>korea</location>
+		<description>Test2 Fashion TV Asia</description>
+		<frequency>3745</frequency>
+		<symbolrate>2626</symbolrate>
+		<polarization>1</polarization>
+		<fec>0</fec>
+		<inversion>2</inversion>
+		<satpos>1056</satpos>
+		<system>0</system>
+		<modulation>1</modulation>
+		<rolloff>0</rolloff>
+		<pilot>2</pilot>
+        </transponder>
+
+        <transponder>
+		<location>china</location>
+		<description>case1</description>
+		<frequency>11836</frequency>
+		<symbolrate>27500</symbolrate>
+		<polarization>0</polarization>
+		<fec>0</fec>
+		<inversion>2</inversion>
+		<satpos>1156</satpos>
+		<system>0</system>
+		<modulation>1</modulation>
+		<rolloff>0</rolloff>
+		<pilot>2</pilot>
+        </transponder>
+
+        <transponder>
+		<location>china</location>
+		<description>case2</description>
+		<frequency>3840</frequency>
+		<symbolrate>27500</symbolrate>
+		<polarization>1</polarization>
+		<fec>0</fec>
+		<inversion>2</inversion>
+		<satpos>1156</satpos>
+		<system>0</system>
+		<modulation>1</modulation>
+		<rolloff>0</rolloff>
+		<pilot>2</pilot>
+        </transponder>
+</xml>
