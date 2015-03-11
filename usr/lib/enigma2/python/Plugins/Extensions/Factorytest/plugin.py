@@ -388,11 +388,21 @@ class cFactoryTest_USB(Screen):
 				self.umount_usb()
 				self.remove_log()
 				self["statusbar"].setText("Connect the USB stick to the FRONT port\nPress ok when ready")
+			elif usbport.find('usb 2-1:') > -1:
+				self.state = 1
+				self.umount_usb()
+				self.remove_log()
+				self["statusbar"].setText("Connect the USB stick to the FRONT port\nPress ok when ready")
 			else:
 				return
 		elif self.state == 1:
 			usbport = self.read_log()
 			if usbport.find('usb 1-2:') > -1:
+				self.state = 2
+				self.umount_usb()
+				self.remove_log()
+				self["statusbar"].setText("Remove the USB Stick\nPress ok to continue")
+			elif usbport.find('usb 3-1:') > -1:
 				self.state = 2
 				self.umount_usb()
 				self.remove_log()
